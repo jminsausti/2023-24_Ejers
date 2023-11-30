@@ -1,12 +1,12 @@
 <script setup>
-import Ejercicio2 from './components/Ejercicio2.vue'
+import Ejercicio3 from './components/Ejercicio3.vue'
 </script>
 
 <template>
 
     <div>
       <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-      <Ejercicio2 />
+      <Ejercicio3 />
     </div>
  
 
