@@ -1,29 +1,15 @@
-# Ejer7-Rutas
+![Inicio de Ejercicio7](./src/assets/CapturaEjercicio_7-Inicio.JPG)
 
-This template should help get you started developing with Vue 3 in Vite.
+### Crea una app que utilice rutas y haga lo siguiente:
+Queremos hacer una páginaweb para publicitar el ciclo de Desarrollo de Aplicaciones Web del CIFP Txurdinaga LHII
+1. La página tendrá 4 rutas posibles: Inicio, Requisitos, Contacto, About
+    1. Inicio: Nos da información sobre el ciclo y los módulos a cursar en 1º curso y 2º curso
+    2. Requisitos: Nos da información sobre los requisitos de acceso al ciclo
+    3. Contacto: Nos muestra nuestra ubicación a partir de Google Maps.
+    4. About: Página About
 
-## Recommended IDE Setup
+![Requisitos de Ejercicio7](./src/assets/CapturaEjercicio_7-Requisitos.JPG)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+![Contacto de Ejercicio7](./src/assets/CapturaEjercicio_7-Contacto.JPG)
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+![About de Ejercicio7](./src/assets/CapturaEjercicio_7-About.JPG)
