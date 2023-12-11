@@ -4,14 +4,22 @@
     <h2>PokeGuia</h2>
     <p>Nombre:<input type="text" id="busqueda" @keyup.enter="buscando" v-model="nombrePoke"><button @click.prevent="buscando">Buscar</button></p>
 
-    <select name="" id="" v-model="nombrePoke" @change="buscando($event)" >
+    <!-- <select name="" id="" v-model="nombrePoke" @change="buscando($event)" >
+  
       <option v-for="pokemon in pokemonesSelect" :value=" pokemon.name" >
         {{ pokemon.name }}
+      </option>
+    </select> -->
+    <select v-on:change="rutaImagen($event)">
+      <option v-for="pokemon in pokemonesSelect" :value=" pokemon.id" >
+        <RouterLink v-bind:to="{name: 'imagen', params:{id:pokemon.id }}">
+          {{ pokemon.name }}
+        </RouterLink>
       </option>
     </select>
 
     <div v-if="activo">
-      <PokeGuia :nombre="llevarNombre" :foto="llevarFoto"></PokeGuia>
+      <img :src="llevarFoto" alt="">
       <h3>Habilidades</h3>
       <ul>
         <li v-for="(item, index) in pokeHabilidad" :key="index">{{item.ability.name}}</li>
@@ -26,7 +34,7 @@
 </template>
 
 <script>
-import PokeGuia from './PokeGuia.vue'
+// import PokeGuia from './PokeGuia.vue'
 
 export default {
   name: 'HomeView',
@@ -77,8 +85,11 @@ export default {
       console.log(datos.results)
       this.pokemonesSelect = datos.results;
       
-    }
-  },
+    },
+    rutaImagen(event){
+      consol
+      this.$router.push("/" + e.target.value);
+    },
   computed: {
     llevarFoto(){
       return this.pokemones.sprites.front_default;
@@ -98,6 +109,10 @@ export default {
   #app {
     text-align: center;
   }
+  ul{
+  display:inline-block;
+  text-align:left;
+}
  .imgPokemon{
     width: 30%;
  }
