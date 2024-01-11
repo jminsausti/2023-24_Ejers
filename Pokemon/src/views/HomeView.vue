@@ -18,7 +18,7 @@ import axios from 'axios'
 export default {
   data() {
     return {
-      selectedPokemon: '',
+      selectedPokemon: 'pikachu',
       pokemonList: [],
     };
   },
