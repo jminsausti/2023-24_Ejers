@@ -1,5 +1,6 @@
 <template>
-    
+    <h1>POKEMONS</h1>
+    <br>
     <div class="pokemon-slider">
       <div class="slider-container" ref="slider">
         <div v-for="(pokemon, index) in pokemonList" :key="index" class="slide">
@@ -15,10 +16,26 @@
       return {
         currentIndex: 0,
         pokemonList: [
-          { name: "Logo", image: "https://live.staticflickr.com/5763/20825075904_4d1195a82c_b.jpg"},
-          { name: "Pikachu", image: "https://i.blogs.es/82d7ef/pokemon/1366_2000.jpeg" },
-          /* { name: "Charizard", image: require('@/assets/descarga1.jpg') },
-          { name: "Jigglypuff", image: require('@/assets/descarga1.jpg') }, */
+          { 
+            name: "Logo",
+            image: "https://i.blogs.es/82d7ef/pokemon/1366_521.jpeg"
+          },  
+          { 
+            name: "Pokemons",
+            image: "https://cdn.custom-cursor.com/collections/129/cover-pokemon-preview.png"
+          },
+          { 
+            name: "Pokemons",
+            image: "https://www.pokemonunite.gg/res/img/pkmn/025.png"
+          },
+          { 
+            name: "Charizard",
+            image: "https://styles.redditmedia.com/t5_2vir1/styles/ommunityIcon_sk3n6g22jsg41.png"
+          },
+          { 
+            name: "Jigglypuff",
+            image: "https://tiermaker.com/images/chart/chart/ash-pokemon-gen-1-8-147611/corphish-256x256png.png"
+          },
           // Agrega más pokémon según sea necesario
         ],
         intervalId: null,

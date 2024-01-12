@@ -1,29 +1,13 @@
-# Pokemon
+# Ejercicio 8 RUTAS Pikachu
 
-This template should help get you started developing with Vue 3 in Vite.
+![Inicio de Ejercicio8](./src/assets/CapturaEjercicio_8-0.png)
 
-## Recommended IDE Setup
+La app dos enlaces de navegación Home y Pokemon
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+### Crea una app que usando la API https://pokeapi.co/ haga lo siguiente:
+1. Desde home se visualzará un slider con fotos de pokemons.
+2. Al pulsar el enlace del menú "pokemon" se accederá a una vista diferente en la que aparecerá un select con todos los pokemons, y una vez seleccinado pulsando el botón nos mostrará información del pokemon seleccionado: altura y peso. Para ello enviaremos por la ruta el nombre del pokemon y en la misma 
+2. .
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+![Ejecución de Ejercicio8](./src/assets/CapturaEjercicio_8-1.png)
+![Ejecución de Ejercicio8](./src/assets/CapturaEjercicio_8-2.png)
