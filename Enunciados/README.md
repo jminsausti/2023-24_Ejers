@@ -2,7 +2,7 @@
 
 ## Ejercicio 1
 
-![Captura Ejercicio1](./Ejer1/src/assets/CapturaEjer1.JPG)
+![Captura Ejercicio1](./Imagenes/CapturaEjer1.JPG)
 
 Modificar el componente HelloWorld. Ponerle como nombre Ejercicio1.
 
@@ -14,7 +14,7 @@ Crea un aplicación que haga lo siguiente:
 
 ## Ejercicio 2
 
-![Inicio de Ejercicio2](./Ejer2/src/assets/CapturaEjer2.jpg)
+![Inicio de Ejercicio2](./Imagenes/CapturaEjer2.jpg)
 
 Modificar el componente HelloWorld. Ponerle como nombre Ejercicio2.
 
@@ -29,7 +29,7 @@ Modificar el componente HelloWorld. Ponerle como nombre Ejercicio2.
 
 ## Ejercicio 3
 
-![Inicio de Ejercicio3](./Ejer3/src/assets/Ejer3.JPG)
+![Inicio de Ejercicio3](./Imagenes/Ejer3.JPG)
 
 Modificar el componente HelloWorld. Ponerle como nombre Ejercicio3.
 
@@ -41,9 +41,9 @@ Modificar el componente HelloWorld. Ponerle como nombre Ejercicio3.
 
 ## Ejercicio 4
 
-![Inicio de Ejercicio4](./Ejer4/src/assets/CapturaEjercicio4-0.JPG)
+![Inicio de Ejercicio4](./Imagenes/CapturaEjercicio4-0.JPG)
 
-![Inicio de Ejercicio4](./Ejer4/src/assets/CapturaEjercicio4.JPG)
+![Inicio de Ejercicio4](./Imagenes/CapturaEjercicio4.JPG)
 
 Crear dos componentes Ejercicio4 y ListaTareas.
 
@@ -56,7 +56,7 @@ Crear dos componentes Ejercicio4 y ListaTareas.
 
 ## Ejercicio 5
 
-![Inicio de Ejercicio5](./Ejer5/src/assets/CapturaEjercicio_5-0.JPG)
+![Inicio de Ejercicio5](./Imagenes/CapturaEjercicio_5-0.JPG)
 
 Crear dos componentes Ejercicio5 y PokeGuia.
 
@@ -71,11 +71,11 @@ Crear dos componentes Ejercicio5 y PokeGuia.
 4.  Las habilidades y los moviminetos se cargan en el propio componente Ejercicio5.vue.
 5.  EL nombre del pokemon y la imagen se le envía al componente PokeGuia para que los muestre.
 
-![Ejecución de Ejercicio5](./Ejer5/src/assets/CapturaEjercicio_5-1.JPG)
+![Ejecución de Ejercicio5](./Imagenes/CapturaEjercicio_5-1.JPG)
 
 ## Ejercicio 6
 
-![Inicio de Ejercicio6](./Ejer6/src/assets/CapturaEjercicio_6-0.JPG)
+![Inicio de Ejercicio6](./Imagenes/CapturaEjercicio_6-0.JPG)
 
 ### Crea una app que usando la API https://cataas.com/ haga lo siguiente:
 
@@ -83,11 +83,11 @@ Crear dos componentes Ejercicio5 y PokeGuia.
     1.  Seleccionaremos las características que queramos teniendo en consideración la documentación de la API. En la imagen hay un ejemplo
 2.  Al pulsar el botón mostrar gato, accedermos a la API con las características seleccionadas y la url devuelta se la mandaremos a un componente hijo para que la muestre.
 
-![Ejecución de Ejercicio6](./Ejer6/src/assets/CapturaEjercicio_6-1.JPG)
+![Ejecución de Ejercicio6](./Imagenes/CapturaEjercicio_6-1.JPG)
 
 ## Ejercicio 7
 
-![Inicio de Ejercicio7](./Ejer7-Rutas/src/assets/CapturaEjercicio_7-Inicio.JPG)
+![Inicio de Ejercicio7](./Imagenes/CapturaEjercicio_7-Inicio.JPG)
 
 ### Crea una app que utilice rutas y haga lo siguiente:
 
@@ -99,27 +99,22 @@ Queremos hacer una páginaweb para publicitar el ciclo de Desarrollo de Aplicaci
     3.  Contacto: Nos muestra nuestra ubicación a partir de Google Maps.
     4.  About: Página About
 
-![Requisitos de Ejercicio7](./Ejer7-Rutas/src/assets/CapturaEjercicio_7-Requisitos.JPG)
+![Requisitos de Ejercicio7](./Imagenes/CapturaEjercicio_7-Requisitos.JPG)
 
-![Contacto de Ejercicio7](./Ejer7-Rutas/src/assets/CapturaEjercicio_7-Contacto.JPG)
+![Contacto de Ejercicio7](./Imagenes/CapturaEjercicio_7-Contacto.JPG)
 
-![About de Ejercicio7](./Ejer7-Rutas/src/assets/CapturaEjercicio_7-About.JPG)
+![About de Ejercicio7](./Imagenes/CapturaEjercicio_7-About.JPG)
 
-## Ejercicio 8 RUTAS Pikachu
+# Ejercicio 8 RUTAS Pikachu
 
-![Inicio de Ejercicio5](./src/assets/CapturaEjercicio_5-0.JPG)
+![Inicio de Ejercicio8](./Imagenes/CapturaEjercicio_8-0.png)
 
-Crear dos componentes Ejercicio5 y PokeGuia.
+La app dos enlaces de navegación Home y Pokemon
 
 ### Crea una app que usando la API https://pokeapi.co/ haga lo siguiente:
+1. Desde home se visualzará un slider con fotos de pokemons.
+2. Al pulsar el enlace del menú "pokemon" se accederá a una vista diferente en la que aparecerá un select con todos los pokemons, y una vez seleccinado pulsando el botón nos mostrará información del pokemon seleccionado: altura y peso. Para ello enviaremos por la ruta el nombre del pokemon y en la misma 
+2. .
 
-1.  La vista HomeView cargará al inicio la información del pokemon "pikachu", sus habilidades y sus movimientos.
-2.  Al pulsar el botón mostrar foto llamaremos a la vista PictureView en donde se mostrarán el nombre y la imagen del pokemon
-3.  Una vez cargada la información de pikachu, podremos buscar la información de otros pokemons
-    1.  Existe un campo de texto en el cual podremos buscar la información de un pokemon en concreto a partir de su nombre.
-    2.  Al inicio cargaremos en un campo select todos los nombres de los pokemons.
-4.  Al poner el nombre de un pokemon y pulsar buscar, o bien al cambiar el campo select se traerá la información de dicho pokemon
-5.  Las habilidades y los moviminetos se cargan en el propio componente Ejercicio5.vue.
-6.  EL nombre del pokemon y la imagen se visualizarán desde la vista PictureView al pulsar el botón mostrar imagen.
-
-![Ejecución de Ejercicio5](./src/assets/CapturaEjercicio_5-1.JPG)
+![Ejecución de Ejercicio8](./Imagenes/CapturaEjercicio_8-1.png)
+![Ejecución de Ejercicio8](./Imagenes/CapturaEjercicio_8-2.png)
