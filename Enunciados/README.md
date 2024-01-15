@@ -14,7 +14,7 @@ Crea un aplicación que haga lo siguiente:
 
 ## Ejercicio 2
 
-![Inicio de Ejercicio2](./Imagenes/CapturaEjer2.jpg)
+![Inicio de Ejercicio2](./Imagenes/CapturaEjer2.JPG)
 
 Modificar el componente HelloWorld. Ponerle como nombre Ejercicio2.
 
